@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnologico de las Americas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container-fluid bg-white py-1 border-bottom">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="logo-itla-blanco copy2.webp" alt="ITLA Logo" style="height: 40px;">
+            </div>
+
+            <div class="d-flex align-items-center flex-grow-1 mx-5">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control rounded-start-pill" placeholder="¿Qué quieres buscar?">
+                    <button class="btn btn-danger rounded-end-pill" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-grid-3x3-gap-fill fs-5 text-secondary"></i>
+                <i class="bi bi-globe fs-5 text-secondary"></i>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #010382 !important;">
+        <div class="container">
+            <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-light" href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-light border-bottom border-danger border-2" href="#" id="navbarSobreITLA" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre ITLA
+                        </a>
+                        <ul class="dropdown-menu shadow border-0" aria-labelledby="navbarSobreITLA">
+                            <li><a class="dropdown-item py-2" id="quienes-somos" href="quienessomos.html">Quienes somos</a></li>
+                            <li><a class="dropdown-item py-2" id="historia" href="historia.html">Historia</a></li>
+                            <li><a class="dropdown-item py-2" id="oferta-academica-drop" href="tecnicosuperior.html">Oferta academica</a></li>
+                            <li><a class="dropdown-item py-2" id="cafe-digital" href="cafedigital.html">Café digital</a></li>
+                            <li><a class="dropdown-item py-2" id="contacto-drop" href="contactos.html">Contacto</a></li>
+                            <li><a class="dropdown-item py-2" id="transparencia-drop" href="#">Transparencia</a></li>
+                            <li><a class="dropdown-item py-2" id="gestion-docente" href="gestiondocente.html">Gestión docente</a></li>
+                            <li><a class="dropdown-item py-2" id="rectoria" href="rectoria.html">Rectoria</a></li>
+                            <li><a class="dropdown-item py-2" id="calidad-gestion" href="calidaddelagestion.html">Calidad de gestion</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Oferta Académica</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Admisiones</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Becas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Estudiantes</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Docentes</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">ITLA Alumni</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Transparencia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Actualidad</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 position-relative text-white" style="height: 300px; overflow: hidden;">
+    
+    <img src="ITLA_0.jpg" 
+         class="w-100 h-100 object-fit-cover" 
+         alt="Fondo ITLA" 
+         style="filter: brightness(0.9) contrast(1.1);">
+
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            
+            <h1 class="fw-bold mb-0" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 3rem;">
+                Quienes somos
+            </h1>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 bg-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="index.html" class="text-primary text-decoration-none fw-bold bg-white px-2 py-1 rounded shadow-sm">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active text-white fw-bold" aria-current="page" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+                        / Quienes somos
+                    </li>
+                </ol>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="position-absolute bottom-0 end-0 m-4">
+        <div class="rounded-circle d-flex align-items-center justify-content-center shadow" 
+             style="background-color: #010382; width: 45px; height: 45px; cursor: pointer;">
+            <i class="bi bi-universal-access text-white fs-4"></i>
+        </div>
+    </div>
+</div>
+
+
+<div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="card border-0 shadow-lg p-4 p-md-5 bg-white">
+                    
+                    <h2 class="fw-bold text-uppercase mb-0" style="color: #e31e24;">
+                        Quienes somos
+                    </h2>
+                    <hr class="border-4 opacity-100 mt-2 mb-4" style="width: 100px; border-color: #010382 !important;">
+
+                    <div class="text-secondary lh-lg">
+                        <p>
+                            El Instituto Tecnológico de Las Américas (ITLA) es una institución técnica de estudios superiores, fundada en el año 2000 por el Estado dominicano. Única especializada en educación tecnológica en la República Dominicana. Ha sido ganadora de diversos reconocimientos por el prestigio y calidad de sus servicios, entre ellos el Premio Nacional a la Calidad que otorga el Ministerio de Administración Pública del país, convirtiéndose en la primera institución académica en recibir el galardón.
+                        </p>
+                        <p>
+                            ITLA orienta su vocación a transformar la vida de la juventud dominicana mediante una formación académica que les capacite para utilizar la tecnología como catalizador del desarrollo social y humano de los ciudadanos.
+                        </p>
+                        <p class="mb-4">
+                            Las áreas de especialización del ITLA son: Desarrollo de Software, Redes de Información, Multimedia, Mecatrónica, Manufactura Automatizada y Seguridad Informática. Además cuenta con la Escuela de Idiomas.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-lg text-white rounded-pill px-5 fw-bold" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#videoSeccion" 
+                                style="background-color: #010382;">
+                            VER VIDEO INSTITUCIONAL
+                        </button>
+                    </div>
+
+                    <div class="collapse mt-4" id="videoSeccion">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/watch?v=FCigbF2J6tc" 
+                                    title="Video Institucional ITLA" 
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 position-relative" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('whatsapp-image-2026-04-08-at-191725-1024x576.jpeg') center/cover no-repeat; min-height: 500px;">
+        
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h4 class="fw-bold text-white text-uppercase" style="letter-spacing: 2px;">Valores Institucionales</h4>
+            </div>
+
+            <div id="carouselValores" class="carousel slide carousel-fade mx-auto" style="max-width: 700px;">
+                
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="card border-0 shadow-lg p-4 p-md-5 bg-white bg-opacity-75" style="backdrop-filter: blur(10px); min-height: 350px;">
+                            <h3 class="fw-bold mb-0" style="color: #e31e24;">Misión</h3>
+                            <hr class="border-4 opacity-100 mt-2 mb-4" style="width: 60px; border-color: #010382 !important;">
+                            <p class="text-dark lh-lg fs-5">
+                                Formar profesionales de excelencia en tecnologías avanzadas, a través de una educación de calidad orientada a los desafíos globales, que fomente la innovación, el emprendimiento y la integridad, dando cumplimiento a las leyes y regulaciones, que contribuyan al desarrollo sostenible y competitivo de la República Dominicana.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card border-0 shadow-lg p-4 p-md-5 bg-white bg-opacity-75" style="backdrop-filter: blur(10px); min-height: 350px;">
+                            <h3 class="fw-bold mb-0" style="color: #e31e24;">Visión</h3>
+                            <hr class="border-4 opacity-100 mt-2 mb-4" style="width: 60px; border-color: #010382 !important;">
+                            <p class="text-dark lh-lg fs-5">
+                                Ser referente en la formación de profesionales especializados en alta tecnología, con egresados destacados por sus aportes en innovación e investigación, capaces de desarrollar soluciones tecnológicas efectivas y sostenibles, manteniendo altos estándares de calidad y actuando con responsabilidad ética, social y profesional, conforme a los principios y estándares reconocidos a nivel nacional e internacional.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card border-0 shadow-lg p-4 p-md-5 bg-white bg-opacity-75" style="backdrop-filter: blur(10px); min-height: 350px;">
+                            <h3 class="fw-bold mb-0" style="color: #e31e24;">Valores</h3>
+                            <hr class="border-4 opacity-100 mt-2 mb-4" style="width: 60px; border-color: #010382 !important;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled fs-5 text-dark">
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Excelencia</li>
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Equidad</li>
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Responsabilidad</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled fs-5 text-dark">
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Respeto</li>
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Compromiso</li>
+                                        <li><i class="bi bi-check2-circle me-2" style="color: #010382;"></i>Integridad</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselValores" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselValores" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+
+                <div class="carousel-indicators position-relative mt-4">
+                    <button type="button" data-bs-target="#carouselValores" data-bs-slide-to="0" class="active bg-white" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselValores" data-bs-slide-to="1" class="bg-white"></button>
+                    <button type="button" data-bs-target="#carouselValores" data-bs-slide-to="2" class="bg-white"></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+    <div class="card border-0 shadow-lg overflow-hidden">
+        <div class="row g-0">
+            
+            <div class="col-md-5 d-none d-md-block">
+                <div class="h-100 position-relative">
+                    <img src="ITLA_0.jpg" 
+                         class="img-fluid h-100 object-fit-cover" alt="Edificio ITLA">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" 
+                         style="background: linear-gradient(45deg, rgba(1, 3, 130, 0.7), transparent);"></div>
+                </div>
+            </div>
+
+            <div class="col-md-7 bg-white">
+                <div class="p-4 p-md-5">
+                    
+                    <div class="mb-4">
+                        <h6 class="fw-bold text-uppercase" style="color: #010382; letter-spacing: 1px;">Objetivos de Calidad</h6>
+                        <hr class="border-danger border-3 opacity-100 mt-1" style="width: 80px;">
+                    </div>
+
+                    <div class="overflow-y-auto pe-3" style="max-height: 400px; scrollbar-width: thin;">
+                        
+                        <div class="d-flex mb-4">
+                            <i class="bi bi-check2-circle fs-4 me-3" style="color: #010382;"></i>
+                            <div>
+                                <p class="mb-0 text-secondary lh-sm">
+                                    Satisfacer las expectativas de los clientes de los diversos programas tecnológicos en un 95%
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <i class="bi bi-check2-circle fs-4 me-3" style="color: #010382;"></i>
+                            <div>
+                                <p class="mb-0 text-secondary lh-sm">
+                                    Cumplir con los requisitos legales y de las normas de referencias ISO 9001:2015 en un 95%
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <i class="bi bi-check2-circle fs-4 me-3" style="color: #010382;"></i>
+                            <div>
+                                <p class="fw-bold mb-1" style="color: #010382;">Expectativas y necesidades</p>
+                                <ul class="list-unstyled text-secondary small mb-0">
+                                    <li>• Índice de satisfacción estudiantil: 90%</li>
+                                    <li>• Índice de satisfacción de las partes interesadas externas (empleadores, aliados): 85%</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <i class="bi bi-check2-circle fs-4 me-3" style="color: #010382;"></i>
+                            <div>
+                                <p class="fw-bold mb-1" style="color: #010382;">Mejora continua</p>
+                                <p class="text-secondary small mb-0">
+                                    Garantizar la mejora continua de los procesos académicos y administrativos:
+                                </p>
+                                <ul class="list-unstyled text-secondary small">
+                                    <li>• Tasa de cumplimiento de planes de mejora: 90% de cierres</li>
+                                    <li>• Tiempo promedio de respuesta a solicitudes académicas y administrativas.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <i class="bi bi-check2-circle fs-4 me-3" style="color: #010382;"></i>
+                            <div>
+                                <p class="fw-bold mb-1" style="color: #010382;">Prácticas sostenibles y éticas</p>
+                                <p class="text-secondary small mb-0">
+                                    Promover cultura de prácticas sostenibles con Porcentaje de procesos administrativos que integran prácticas sostenibles (ahorro energético, reducción de papel, etc.).
+                                </p>
+                            </div>
+                        </div>
+
+                    </div> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 position-relative" style="
+        background-image: url('escudo-ITLA.webp');
+        background-size: contain; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        min-height: 80vh;
+    ">
+        
+        <div class="container d-flex justify-content-center align-items-center h-100 py-5">
+            <div class="row justify-content-center w-100">
+                <div class="col-12 col-md-8 col-lg-6">
+                    
+                    <div class="card border-0 shadow-lg p-4 p-md-5 bg-white bg-opacity-75 text-center rounded-4" style="backdrop-filter: blur(5px);">
+                        
+                        <h2 class="fw-bold mb-5 text-uppercase" style="color: #001f5b; letter-spacing: 2px;">
+                            Himno Institucional
+                        </h2>
+
+                        <div class="lh-lg fs-5 text-dark">
+                            <p class="mb-4">
+                                En las alas de este sueño,<br>
+                                Ven y súbete a volar,<br>
+                                Hasta un mundo sin fronteras<br>
+                                Que tú mismo forjarás.
+                            </p>
+
+                            <p class="mb-4">
+                                Ni tu raza ni quien eres,<br>
+                                Te impiden comenzar,<br>
+                                Sólo importa cuánto quieres<br>
+                                Y hasta donde puedes dar.
+                            </p>
+
+                            <p class="mb-4">
+                                El futuro está en tus manos,<br>
+                                Ya se puede ver su luz,<br>
+                                El futuro ya está cerca<br>
+                                Es el ITLA, lo eres tú.
+                            </p>
+
+                            <p class="mb-4">
+                                Siempre al frente, siempre arriba,<br>
+                                Siempre dando lo mejor,<br>
+                                Llegaremos a la cima<br>
+                                Para honrar nuestra nación.
+                            </p>
+
+                            <p class="mb-4">
+                                El futuro está en tus manos,<br>
+                                Ya se puede ver su luz,<br>
+                                El futuro ya está cerca<br>
+                                Es el ITLA, lo eres tú.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 position-relative overflow-hidden">
+        
+        <img src="ITLA_0.jpg" 
+             class="w-100 object-fit-cover" 
+             style="height: 400px; filter: brightness(0.6);" 
+             alt="Banner ITLA">
+
+        <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-3">
+            
+            <h2 class="text-white fw-light mb-4" style="letter-spacing: 1px; font-size: 2.5rem;">
+                ¡Tu futuro profesional empieza aquí!
+            </h2>
+
+            <a href="#" 
+               class="btn btn-lg rounded-pill px-5 py-2 fw-bold text-white border-0" 
+               style="background-color: #010382 !important;">
+                INSCRÍBETE
+            </a>
+
+        </div>
+
+        <div class="position-absolute bottom-0 end-0 m-4 d-none d-md-block">
+            <div class="rounded-circle d-flex align-items-center justify-content-center" 
+                 style="background-color: #010382; width: 40px; height: 40px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-universal-access" viewBox="0 0 16 16">
+                    <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 12H7.757l-1.156 3.594a.535.535 0 0 1-1.053-.174L6 9z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+     <footer class="text-white py-5" style="background-color: #e31e24 !important;">
+    <div class="container">
+        <div class="row gy-4">
+            
+            <div class="col-md-4 border-end border-white border-opacity-25">
+                <div class="pe-4">
+                    <img src="logo-itla-blanco copy.webp" alt="Logo ITLA" class="mb-4" style="height: 60px; filter: brightness(0) invert(1);">
+                    <p class="small lh-lg">
+                        El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-2 ps-md-5">
+                <h6 class="fw-bold text-uppercase mb-4">Infórmate</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Preguntas Frecuentes</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Transparencia</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h6 class="fw-bold text-uppercase mb-4">Contáctanos</h6>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-telephone-fill me-3"></i>
+                    <span class="small">(809)-738-4852 / (809)-793-2557</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-envelope-fill me-3"></i>
+                    <span class="small">info@itla.edu.do</span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h6 class="fw-bold text-uppercase mb-4">Búscanos</h6>
+                <p class="small mb-4">
+                    Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.
+                </p>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-facebook" style="cursor: pointer;"></i>
+                    <i class="bi bi-instagram" style="cursor: pointer;"></i>
+                    <i class="bi bi-twitter-x" style="cursor: pointer;"></i>
+                    <i class="bi bi-youtube" style="cursor: pointer;"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5 pt-4 border-top border-white border-opacity-25">
+            <div class="col text-center">
+                <p class="small mb-0 opacity-50">&copy; 2026 Instituto Tecnológico de las Américas (ITLA). Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

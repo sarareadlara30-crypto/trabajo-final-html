@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnologico de las Americas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container-fluid bg-white py-1 border-bottom">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="logo-itla-blanco copy2.webp" alt="ITLA Logo" style="height: 40px;">
+            </div>
+
+            <div class="d-flex align-items-center flex-grow-1 mx-5">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control rounded-start-pill" placeholder="¿Qué quieres buscar?">
+                    <button class="btn btn-danger rounded-end-pill" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-grid-3x3-gap-fill fs-5 text-secondary"></i>
+                <i class="bi bi-globe fs-5 text-secondary"></i>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #010382 !important;">
+        <div class="container">
+            <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-light" href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-light border-bottom border-danger border-2" href="#" id="navbarSobreITLA" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre ITLA
+                        </a>
+                        <ul class="dropdown-menu shadow border-0" aria-labelledby="navbarSobreITLA">
+                            <li><a class="dropdown-item py-2" id="quienes-somos" href="quienessomos.html">Quienes somos</a></li>
+                            <li><a class="dropdown-item py-2" id="historia" href="historia.html">Historia</a></li>
+                            <li><a class="dropdown-item py-2" id="oferta-academica-drop" href="tecnicosuperior.html">Oferta academica</a></li>
+                            <li><a class="dropdown-item py-2" id="cafe-digital" href="cafedigital.html">Café digital</a></li>
+                            <li><a class="dropdown-item py-2" id="contacto-drop" href="contactos.html">Contacto</a></li>
+                            <li><a class="dropdown-item py-2" id="transparencia-drop" href="#">Transparencia</a></li>
+                            <li><a class="dropdown-item py-2" id="gestion-docente" href="gestiondocente.html">Gestión docente</a></li>
+                            <li><a class="dropdown-item py-2" id="rectoria" href="rectoria.html">Rectoria</a></li>
+                            <li><a class="dropdown-item py-2" id="calidad-gestion" href="calidaddelagestion.html">Calidad de gestion</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="tecnicosuperior.html">Oferta Académica</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Admisiones</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Becas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Estudiantes</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Docentes</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">ITLA Alumni</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Transparencia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="#">Actualidad</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-light" href="contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container py-5">
+        <div class="row g-0"> <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-globe fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">ITLA Internacional</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-laptop fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Plataforma Virtual</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-translate fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Escuela de Idiomas</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-patch-check fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">ITLA Test Center</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-walking fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Deportes y Cultura</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-signpost-split fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Programa de Extensión</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-person-badge fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Egresados</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-geo-alt fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Recintos y Extensiones</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-mortarboard fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">ITLAcademy</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-unity fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Protoscanner 3D</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-send fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Emprendimiento e Innovación</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="#" class="btn btn-outline-danger border w-100 h-100 py-5 rounded-0 d-flex flex-column align-items-center justify-content-center shadow-sm bg-white">
+                    <i class="bi bi-card-checklist fs-1 mb-3"></i>
+                    <span class="fw-bold small text-uppercase text-center">Graduación</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 my-4">
+        
+        <div id="carruselITLA" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carruselITLA" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carruselITLA" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carruselITLA" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carruselITLA" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="Captura de pantalla 2026-04-25 041418.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="Captura de pantalla 2026-04-25 041432.png" class="d-block w-100" alt="Banner 2">
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="Captura de pantalla 2026-04-25 041446.png" class="d-block w-100" alt="Banner 3">
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="Captura de pantalla 2026-04-25 041456.png" class="d-block w-100" alt="Banner 4">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselITLA" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselITLA" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+
+        </div>
+    </div>
+
+    <div class="container py-5">
+        
+        <div class="d-flex align-items-end mb-4 gap-2">
+            <i class="bi bi-buildings fs-2" style="color: #010382;"></i>
+            <div class="d-flex flex-column">
+                <h5 class="mb-0 fw-bold" style="color: #010382;">Nuevas Carreras</h5>
+                <hr class="border-danger border-2 opacity-100 my-1" style="width: 60%;">
+            </div>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-12 col-md-4">
+                <div class="ratio ratio-4x3 position-relative rounded shadow-sm overflow-hidden" style="cursor: pointer;">
+                    <img src="d1776a6ff3bf2d8cee323cda909c1c6c.jpg" class="object-fit-cover w-100 h-100" alt="Simulaciones">
+                    
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25 p-3 d-flex align-items-center justify-content-center">
+                        <div class="border border-white border-1 w-100 h-100 d-flex flex-column justify-content-center align-items-center p-3 text-center">
+                            <h5 class="text-white fw-bold mb-0 shadow-sm">Simulaciones interactivas y<br>videojuegos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="ratio ratio-4x3 position-relative rounded shadow-sm overflow-hidden" style="cursor: pointer;">
+                    <img src="73557310127ea42f0974d46ca5ec3e53.jpg" class="object-fit-cover w-100 h-100" alt="Telecomunicaciones">
+                    
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25 p-3 d-flex align-items-center justify-content-center">
+                        <div class="border border-white border-1 w-100 h-100 d-flex flex-column justify-content-center align-items-center p-3 text-center">
+                            <h5 class="text-white fw-bold mb-0 shadow-sm">Telecomunicaciones</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="ratio ratio-4x3 position-relative rounded shadow-sm overflow-hidden" style="cursor: pointer;">
+                    <img src="72077b99f999f098cb9f49ff54d30b66.webp" class="object-fit-cover w-100 h-100" alt="Inteligencia Artificial">
+                    
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25 p-3 d-flex align-items-center justify-content-center">
+                        <div class="border border-white border-1 w-100 h-100 d-flex flex-column justify-content-center align-items-center p-3 text-center">
+                            <h5 class="text-white fw-bold mb-0 shadow-sm">Inteligencia Artificial</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn rounded-pill px-5 py-2 fw-bold text-white shadow-sm" style="background-color: #010382;">
+                + CARRERAS
+            </button>
+        </div>
+
+    </div>
+
+    <div class="container-fluid p-0 position-relative overflow-hidden">
+        
+        <img src="ITLA_0.jpg" 
+             class="w-100 object-fit-cover" 
+             style="height: 400px; filter: brightness(0.6);" 
+             alt="Banner ITLA">
+
+        <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-3">
+            
+            <h2 class="text-white fw-light mb-4" style="letter-spacing: 1px; font-size: 2.5rem;">
+                ¡Tu futuro profesional empieza aquí!
+            </h2>
+
+            <a href="#" 
+               class="btn btn-lg rounded-pill px-5 py-2 fw-bold text-white border-0" 
+               style="background-color: #010382 !important;">
+                INSCRÍBETE
+            </a>
+
+        </div>
+
+        <div class="position-absolute bottom-0 end-0 m-4 d-none d-md-block">
+            <div class="rounded-circle d-flex align-items-center justify-content-center" 
+                 style="background-color: #010382; width: 40px; height: 40px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-universal-access" viewBox="0 0 16 16">
+                    <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 12H7.757l-1.156 3.594a.535.535 0 0 1-1.053-.174L6 9z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        
+        <div class="d-flex align-items-end mb-5 gap-2 justify-content-center">
+            <i class="bi bi-buildings fs-2" style="color: #010382;"></i>
+            <div class="d-flex flex-column text-center">
+                <h5 class="mb-0 fw-bold" style="color: #010382;">Últimas Novedades</h5>
+                <hr class="border-danger border-2 opacity-100 my-1 mx-auto" style="width: 60%;">
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-0 shadow border rounded overflow-hidden">
+            
+            <div class="col ratio ratio-4x3 position-relative p-0" style="cursor: pointer;">
+                <img src="Twitch-llega-al-ITLA.webp" class="object-fit-cover w-100 h-100" alt="Novedad 1">
+                
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 p-4 d-flex flex-column justify-content-between text-white">
+                    <div class="mb-2">
+                        <small class="text-white-50">abril 20, 2026</small>
+                        <h6 class="fw-bold mt-1">Twitch llega al ITLA con workshop exclusivo para impulsar el talento digital joven</h6>
+                    </div>
+                    <p class="small text-white-50 mb-0 d-none d-lg-block">
+                        Santo Domingo. – La plataforma global Twitch, líder mundial en transmisiones en vivo y comunidad digital de creadores, realizó un workshop exclusivo en el Instituto Tecnológico de las Américas (ITLA), donde impactó a más de 100 estudiantes destacados, como parte de las actividades del Segundo Festival Latinoamericano de Creadores de Contenido.
+                    </p>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4 btn-sm fw-bold align-self-start mt-3">LEER MÁS</a>
+                </div>
+            </div>
+
+            <div class="col ratio ratio-4x3 position-relative p-0 border-start border-end" style="cursor: pointer;">
+                <img src="Recorrido-MIVED.webp" class="object-fit-cover w-100 h-100" alt="Novedad 2">
+                
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 p-4 d-flex flex-column justify-content-between text-white">
+                    <div class="mb-2">
+                        <small class="text-white-50">abril 17, 2026</small>
+                        <h6 class="fw-bold mt-1">ITLA y MIVED avanzan en proyectos de expansión y fortalecimiento de infraestructura institucional</h6>
+                    </div>
+                    <p class="small text-white-50 mb-0 d-none d-lg-block">
+                        Santo Domingo. – El rector del Instituto Tecnológico de las Américas (ITLA), Jimmy Rosario, recibió una delegación del Ministerio de la Vivienda y Edificaciones (MIVED), en un encuentro de seguimiento a los proyectos de infraestructura que la institución proyecta desarrollar durante el presente año.
+                    </p>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4 btn-sm fw-bold align-self-start mt-3">LEER MÁS</a>
+                </div>
+            </div>
+
+            <div class="col ratio ratio-4x3 position-relative p-0" style="cursor: pointer;">
+                <img src="participacion-en-competencia-de-la-NASA.webp" class="object-fit-cover w-100 h-100" alt="Novedad 3">
+                
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 p-4 d-flex flex-column justify-content-between text-white">
+                    <div class="mb-2">
+                        <small class="text-white-50">abril 15, 2026</small>
+                        <h6 class="fw-bold mt-1">Estudiantes del ITLA son reconocidos tras histórica participación en competencia de la NASA</h6>
+                    </div>
+                    <p class="small text-white-50 mb-0 d-none d-lg-block">
+                        Santo Domingo.- El Instituto Tecnológico de las Américas (ITLA) celebró un acto de reconocimiento en honor a los estudiantes, docentes y colaboradores que formaron parte del proyecto RDX, iniciativa que llevó a la institución a representar a la República Dominicana en la prestigiosa competencia Human Exploration Rover Challenge (HERC) 2026 de la NASA.
+                    </p>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4 btn-sm fw-bold align-self-start mt-3">LEER MÁS</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn rounded-pill px-5 py-2 fw-bold text-white shadow-sm" style="background-color: #010382;">
+                MÁS NOVEDADES
+            </button>
+        </div>
+
+    </div>
+
+    <footer class="text-white py-5" style="background-color: #e31e24 !important;">
+    <div class="container">
+        <div class="row gy-4">
+            
+            <div class="col-md-4 border-end border-white border-opacity-25">
+                <div class="pe-4">
+                    <img src="logo-itla-blanco copy.webp" alt="Logo ITLA" class="mb-4" style="height: 60px; filter: brightness(0) invert(1);">
+                    <p class="small lh-lg">
+                        El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-2 ps-md-5">
+                <h6 class="fw-bold text-uppercase mb-4">Infórmate</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Preguntas Frecuentes</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none small opacity-75">Transparencia</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h6 class="fw-bold text-uppercase mb-4">Contáctanos</h6>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-telephone-fill me-3"></i>
+                    <span class="small">(809)-738-4852 / (809)-793-2557</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-envelope-fill me-3"></i>
+                    <span class="small">info@itla.edu.do</span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h6 class="fw-bold text-uppercase mb-4">Búscanos</h6>
+                <p class="small mb-4">
+                    Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.
+                </p>
+                <div class="d-flex gap-3 fs-5">
+                    <i class="bi bi-facebook" style="cursor: pointer;"></i>
+                    <i class="bi bi-instagram" style="cursor: pointer;"></i>
+                    <i class="bi bi-twitter-x" style="cursor: pointer;"></i>
+                    <i class="bi bi-youtube" style="cursor: pointer;"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5 pt-4 border-top border-white border-opacity-25">
+            <div class="col text-center">
+                <p class="small mb-0 opacity-50">&copy; 2026 Instituto Tecnológico de las Américas (ITLA). Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
